@@ -1,0 +1,91 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.history {
+  margin: 1px 20px 20px 20px;
+  padding: 20px 20px;
+  text-align: left;
+}
+#history-title {
+  text-align: center;
+}
+.attraction-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f1faee;
+}
+.attraction {
+  width: 400px;
+  margin: 20px 20px;
+}
+.top-three {
+  background-color: #f1faee;
+  padding-top: 20px;
+}
+
+.hero {
+  background-image: url("images/BridgeportPerryMemorial-Arch.jpeg");
+  background-size: cover;
+  padding: 100px 0 500px 0;
+  /*border: 1px solid red;*/
+}
+
+#hero-title {
+  text-align: center;
+  background-color: #457b9d;
+  color: white;
+  width: 200px;
+  margin: 0 auto 30px auto;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+#hero-subtitle {
+  text-align: center;
+  background-color: #1d3557;
+  color: white;
+  width: 500px;
+  margin: 0 auto 0 auto;
+  padding: 10px 20px;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  width: 400px;
+  margin: 50px auto 50px auto;
+  background-color: #a8dadc;
+  border-bottom: 4px solid #1d3557;
+  border-radius: 5px;
+}
+
+#card-image {
+  border-radius: 0px;
+  margin: 20px;
+  height: 200px;
+  width: 140px;
+}
+
+#card-text {
+  padding: 30px 10px;
+}
